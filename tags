@@ -1,0 +1,655 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AMASS_JOINT_MAP	visualize/joints2smpl/src/config.py	/^AMASS_JOINT_MAP = {$/;"	v
+ANIMAL_SKELETONS	data_loaders/horse/skeleton.py	/^ANIMAL_SKELETONS = {'horse_v2': HORSE_SKELETON}$/;"	v
+ANIMAL_TYPES_V2	data_loaders/horse/skeleton.py	/^ANIMAL_TYPES_V2 = ['horse_v2']$/;"	v
+AugDataset	data_loaders/base_dataset.py	/^class AugDataset(BaseDataset):$/;"	c
+BaseDataset	data_loaders/base_dataset.py	/^class BaseDataset(data.Dataset):$/;"	c
+COCO_LANDMARKS	data_loaders/gymnastics/skeleton.py	/^COCO_LANDMARKS = [$/;"	v
+CONFIDENCE_THRESHOLD	data_loaders/horse/dataset.py	/^CONFIDENCE_THRESHOLD = 0.5$/;"	v
+CONFIGS	data_loaders/dataset_utils.py	/^CONFIGS = {$/;"	v
+CONVERT_NBA_V2_SKELETON	eval/eval_motionBert.py	/^CONVERT_NBA_V2_SKELETON = [CONVERT_SKELETON_NAMES.index(landmark) for landmark in LANDMARKS]$/;"	v
+CONVERT_SKELETON_NAMES	eval/eval_motionBert.py	/^CONVERT_SKELETON_NAMES = [$/;"	v
+CheckpointFunction	diffusion/nn.py	/^class CheckpointFunction(th.autograd.Function):$/;"	c
+ClassifierFreeSampleModel	model/cfg_sampler.py	/^class ClassifierFreeSampleModel(nn.Module):$/;"	c
+ClearmlPlatform	train/train_platforms.py	/^class ClearmlPlatform(TrainPlatform):$/;"	c
+DEFAULT_DATAPATH	data_loaders/humanml/dataset.py	/^DEFAULT_DATAPATH = ".\/dataset\/projection"$/;"	v
+DEFAULT_DTYPE	visualize/joints2smpl/src/prior.py	/^DEFAULT_DTYPE = torch.float32$/;"	v
+DIVERSITY_TIMES	eval/evaluate.py	/^DIVERSITY_TIMES = 200$/;"	v
+DatasetConfig	data_loaders/base_config.py	/^class DatasetConfig:$/;"	c
+DiffusionSampler	sample/sampler.py	/^class DiffusionSampler(Sampler):$/;"	c
+DiffusionTrainer	train/train_mdm.py	/^class DiffusionTrainer(Trainer):$/;"	c
+DiffusionTrainerEval	train/train_mdm.py	/^class DiffusionTrainerEval(DiffusionTrainer):$/;"	c
+Dreamfusion	sample/dreamfusion.py	/^class Dreamfusion(MAS):$/;"	c
+DreamfusionAnnealed	sample/dreamfusion.py	/^class DreamfusionAnnealed(Dreamfusion):$/;"	c
+ELEPOSE_SAMPLES_PATH	eval/evaluate.py	/^ELEPOSE_SAMPLES_PATH = "dataset\/nba\/elepose_predictions"$/;"	v
+EPSILON	diffusion/gaussian_diffusion.py	/^    EPSILON = enum.auto()  # the model predicts epsilon$/;"	v	class:ModelMeanType
+EmbedAction	model/mdm.py	/^class EmbedAction(nn.Module):$/;"	c
+EvalSampler	eval/test_evaluator.py	/^class EvalSampler(Sampler):$/;"	c
+Evaluator	eval/evaluate.py	/^class Evaluator:$/;"	c
+EvaluatorTrainer	eval/train_evaluator.py	/^class EvaluatorTrainer(Trainer):$/;"	c
+FIXED_LARGE	diffusion/gaussian_diffusion.py	/^    FIXED_LARGE = enum.auto()$/;"	v	class:ModelVarType
+FIXED_SMALL	diffusion/gaussian_diffusion.py	/^    FIXED_SMALL = enum.auto()$/;"	v	class:ModelVarType
+GENDERS	utils/config.py	/^GENDERS = ['neutral', 'male', 'female']$/;"	v
+GMM_MODEL_DIR	visualize/joints2smpl/src/config.py	/^GMM_MODEL_DIR = ".\/visualize\/joints2smpl\/smpl_models\/"$/;"	v
+GPUS_PER_NODE	utils/dist_utils.py	/^GPUS_PER_NODE = 8$/;"	v
+GYMNASTICS_CONFIG	data_loaders/gymnastics/config.py	/^GYMNASTICS_CONFIG = SimpleNamespace($/;"	v
+GaussianDiffusion	diffusion/gaussian_diffusion.py	/^class GaussianDiffusion:$/;"	c
+Generator	sample/generate.py	/^class Generator(DiffusionSampler):$/;"	c
+GroupNorm32	diffusion/nn.py	/^class GroupNorm32(nn.GroupNorm):$/;"	c
+GymnasticsDataset	data_loaders/gymnastics/dataset.py	/^class GymnasticsDataset(AugDataset):$/;"	c
+HORSE_CONFIG	data_loaders/horse/config.py	/^HORSE_CONFIG = SimpleNamespace($/;"	v
+HORSE_LANDMARKS	data_loaders/horse/skeleton.py	/^HORSE_LANDMARKS = {$/;"	v
+HORSE_MIRROR_LANDMARKS_INDICES	data_loaders/horse/skeleton.py	/^HORSE_MIRROR_LANDMARKS_INDICES = [0] * len(HORSE_LANDMARKS)$/;"	v
+HORSE_SKELETON	data_loaders/horse/skeleton.py	/^HORSE_SKELETON = [[HORSE_LANDMARKS[joint] for joint in chain] for chain in HORSE_SKELETON_NAMES]$/;"	v
+HORSE_SKELETON_NAMES	data_loaders/horse/skeleton.py	/^HORSE_SKELETON_NAMES = [$/;"	v
+HUMANML_CONFIG	data_loaders/humanml/config.py	/^HUMANML_CONFIG = SimpleNamespace($/;"	v
+HorseDataset	data_loaders/horse/dataset.py	/^class HorseDataset(AugDataset):$/;"	c
+HunammlDataset	data_loaders/humanml/dataset.py	/^class HunammlDataset(BaseDataset):$/;"	c
+INITIAL_LOG_LOSS_SCALE	diffusion/fp16_util.py	/^INITIAL_LOG_LOSS_SCALE = 20.0$/;"	v
+InputProcess	model/mdm.py	/^class InputProcess(nn.Module):$/;"	c
+JOINTSTYPES	model/rotation2xyz.py	/^JOINTSTYPES = ["a2m", "a2mpl", "smpl", "vibe", "vertices"]$/;"	v
+JOINTSTYPE_ROOT	model/smpl.py	/^JOINTSTYPE_ROOT = {"a2m": 0, # action2motion$/;"	v
+JOINT_MAP	model/smpl.py	/^JOINT_MAP = {$/;"	v
+JOINT_MAP	visualize/joints2smpl/src/config.py	/^JOINT_MAP = {$/;"	v
+JOINT_MAP	visualize/motions2hik.py	/^JOINT_MAP = [$/;"	v
+JOINT_NAMES	model/smpl.py	/^JOINT_NAMES = [$/;"	v
+JOINT_REGRESSOR_TRAIN_EXTRA	utils/config.py	/^JOINT_REGRESSOR_TRAIN_EXTRA = os.path.join(SMPL_DATA_PATH, 'J_regressor_extra.npy')$/;"	v
+KL	diffusion/gaussian_diffusion.py	/^    KL = enum.auto()  # use the variational lower-bound$/;"	v	class:LossType
+KL_DIV_LOSS_WEIGHT	eval/train_evaluator.py	/^KL_DIV_LOSS_WEIGHT = 0.00001$/;"	v
+L2Prior	visualize/joints2smpl/src/prior.py	/^class L2Prior(nn.Module):$/;"	c
+LANDMARKS	data_loaders/gymnastics/skeleton.py	/^LANDMARKS = COCO_LANDMARKS + ["Ball"]$/;"	v
+LANDMARKS	data_loaders/humanml/skeleton.py	/^LANDMARKS = [$/;"	v
+LANDMARKS	data_loaders/nba/skeleton.py	/^LANDMARKS = [$/;"	v
+LEARNED	diffusion/gaussian_diffusion.py	/^    LEARNED = enum.auto()$/;"	v	class:ModelVarType
+LEARNED_RANGE	diffusion/gaussian_diffusion.py	/^    LEARNED_RANGE = enum.auto()$/;"	v	class:ModelVarType
+LIFTED_MOTION_WEIGHT	sample/ablations.py	/^LIFTED_MOTION_WEIGHT = 1000$/;"	v
+LossAwareSampler	diffusion/resample.py	/^class LossAwareSampler(ScheduleSampler):$/;"	c
+LossSecondMomentResampler	diffusion/resample.py	/^class LossSecondMomentResampler(LossAwareSampler):$/;"	c
+LossType	diffusion/gaussian_diffusion.py	/^class LossType(enum.Enum):$/;"	c
+MAS	sample/mas.py	/^class MAS(DiffusionSampler):$/;"	c
+MASNo3DNoise	sample/ablations.py	/^class MASNo3DNoise(MAS):$/;"	c
+MASProminentAngle	sample/ablations.py	/^class MASProminentAngle(MAS):$/;"	c
+MASProminentAngleNo3DNoise	sample/ablations.py	/^class MASProminentAngleNo3DNoise(MASNo3DNoise, MASProminentAngle):$/;"	c
+MASRandomAngles	sample/ablations.py	/^class MASRandomAngles(MAS):$/;"	c
+MAS_TYPES	sample/ablations.py	/^MAS_TYPES = {$/;"	v
+MAX_LENGTH	data_loaders/horse/dataset.py	/^MAX_LENGTH = 30 * 20$/;"	v
+MDM	model/mdm.py	/^class MDM(nn.Module):$/;"	c
+MIN_LENGTH	data_loaders/horse/dataset.py	/^MIN_LENGTH = 30 * 3$/;"	v
+MIN_MOTION_LENGTH	data_loaders/humanml/dataset.py	/^MIN_MOTION_LENGTH = 10$/;"	v
+MIRRORED_INDICES	data_loaders/nba/skeleton.py	/^MIRRORED_INDICES = [LANDMARKS.index(MIRRORED_LANDMARKS[landmark]) for landmark in LANDMARKS]$/;"	v
+MIRRORED_LANDMARKS	data_loaders/nba/skeleton.py	/^MIRRORED_LANDMARKS = {$/;"	v
+MIRROR_LANDMARKS_INDICES	data_loaders/horse/skeleton.py	/^MIRROR_LANDMARKS_INDICES = {'horse_v2': HORSE_MIRROR_LANDMARKS_INDICES}/;"	v
+MOTIONBERT_SAMPLES_PATH	eval/evaluate.py	/^MOTIONBERT_SAMPLES_PATH = "dataset\/nba\/motionBert_predictions"$/;"	v
+MSE	diffusion/gaussian_diffusion.py	/^    MSE = enum.auto()  # use raw MSE loss (and KL when learning variances)$/;"	v	class:LossType
+MaxMixturePrior	visualize/joints2smpl/src/prior.py	/^class MaxMixturePrior(nn.Module):$/;"	c
+MixedPrecisionTrainer	diffusion/fp16_util.py	/^class MixedPrecisionTrainer:$/;"	c
+ModelMeanType	diffusion/gaussian_diffusion.py	/^class ModelMeanType(enum.Enum):$/;"	c
+ModelVarType	diffusion/gaussian_diffusion.py	/^class ModelVarType(enum.Enum):$/;"	c
+NBADataset	data_loaders/nba/dataset.py	/^class NBADataset(BaseDataset):$/;"	c
+NBA_CONFIG	data_loaders/nba/config.py	/^NBA_CONFIG = SimpleNamespace($/;"	v
+NUM_BETAS	utils/config.py	/^NUM_BETAS = 10/;"	v
+NUM_ITERATIONS	sample/dreamfusion.py	/^NUM_ITERATIONS = 1000$/;"	v
+NoPlatform	train/train_platforms.py	/^class NoPlatform(TrainPlatform):$/;"	c
+OG_FPS	data_loaders/nba/dataset.py	/^OG_FPS = 60$/;"	v
+OPTIMIZATION_THRESHOLD	sample/mas.py	/^OPTIMIZATION_THRESHOLD = 0.00000000005$/;"	v
+OPTIMIZE_STEPS	sample/mas.py	/^OPTIMIZE_STEPS = 1000$/;"	v
+OutputProcess	model/mdm.py	/^class OutputProcess(nn.Module):$/;"	c
+PRECISION_AND_RECALL_K	eval/evaluate.py	/^PRECISION_AND_RECALL_K = 3$/;"	v
+PREVIOUS_X	diffusion/gaussian_diffusion.py	/^    PREVIOUS_X = enum.auto()  # the model predicts x_{t-1}$/;"	v	class:ModelMeanType
+Part_Seg_DIR	visualize/joints2smpl/src/config.py	/^Part_Seg_DIR = ".\/visualize\/joints2smpl\/smpl_models\/smplx_parts_segm.pkl"/;"	v
+PositionalEncoding	model/mdm.py	/^class PositionalEncoding(nn.Module):$/;"	c
+RESCALED_KL	diffusion/gaussian_diffusion.py	/^    RESCALED_KL = enum.auto()  # like KL, but rescale to estimate the full VLB$/;"	v	class:LossType
+RESCALED_MSE	diffusion/gaussian_diffusion.py	/^    RESCALED_MSE = enum.auto()  # use raw MSE loss (with RESCALED_KL when learning variances)$/;"	v	class:LossType
+ROOT_INDEX	data_loaders/humanml/skeleton.py	/^ROOT_INDEX = LANDMARKS.index("pelvis")$/;"	v
+ROOT_INDEX	data_loaders/nba/skeleton.py	/^ROOT_INDEX = LANDMARKS.index("Hip")$/;"	v
+ROT_CONVENTION_TO_ROT_NUMBER	utils/config.py	/^ROT_CONVENTION_TO_ROT_NUMBER = {$/;"	v
+Rotation2xyz	model/rotation2xyz.py	/^class Rotation2xyz:$/;"	c
+SETUP_RETRY_COUNT	utils/dist_utils.py	/^SETUP_RETRY_COUNT = 3$/;"	v
+SKELETON	data_loaders/gymnastics/skeleton.py	/^SKELETON = [[LANDMARKS.index(name) for name in names] for names in SKELETON_NAMES]$/;"	v
+SKELETON	data_loaders/humanml/skeleton.py	/^SKELETON = [[LANDMARKS.index(name) for name in names] for names in SKELETON_NAMES]$/;"	v
+SKELETON	data_loaders/nba/skeleton.py	/^SKELETON = [[LANDMARKS.index(skeleton_name) for skeleton_name in sub_skeleton_names] for sub_skeleton_names in SKELETON_NAMES]$/;"	v
+SKELETON_NAMES	data_loaders/gymnastics/skeleton.py	/^SKELETON_NAMES = [$/;"	v
+SKELETON_NAMES	data_loaders/humanml/skeleton.py	/^SKELETON_NAMES = [$/;"	v
+SKELETON_NAMES	data_loaders/nba/skeleton.py	/^SKELETON_NAMES = [$/;"	v
+SMPL	model/smpl.py	/^class SMPL(_SMPLLayer):$/;"	c
+SMPL_DATA_PATH	utils/config.py	/^SMPL_DATA_PATH = ".\/body_models\/smpl"$/;"	v
+SMPL_KINTREE_PATH	utils/config.py	/^SMPL_KINTREE_PATH = os.path.join(SMPL_DATA_PATH, "kintree_table.pkl")$/;"	v
+SMPL_MEAN_FILE	visualize/joints2smpl/src/config.py	/^SMPL_MEAN_FILE = ".\/visualize\/joints2smpl\/smpl_models\/neutral_smpl_mean_params.h5"$/;"	v
+SMPL_MODEL_DIR	visualize/joints2smpl/src/config.py	/^SMPL_MODEL_DIR = ".\/body_models\/"$/;"	v
+SMPL_MODEL_PATH	utils/config.py	/^SMPL_MODEL_PATH = os.path.join(SMPL_DATA_PATH, "SMPL_NEUTRAL.pkl")$/;"	v
+SMPLify3D	visualize/joints2smpl/src/smplify.py	/^class SMPLify3D():$/;"	c
+SMPLifyAnglePrior	visualize/joints2smpl/src/prior.py	/^class SMPLifyAnglePrior(nn.Module):$/;"	c
+START_X	diffusion/gaussian_diffusion.py	/^    START_X = enum.auto()  # the model predicts x_0$/;"	v	class:ModelMeanType
+Sampler	sample/sampler.py	/^class Sampler:$/;"	c
+ScheduleSampler	diffusion/resample.py	/^class ScheduleSampler(ABC):$/;"	c
+SiLU	diffusion/nn.py	/^class SiLU(nn.Module):$/;"	c
+SpacedDiffusion	diffusion/respace.py	/^class SpacedDiffusion(GaussianDiffusion):$/;"	c
+TEST_SPLIT_SIZE	data_loaders/base_dataset.py	/^TEST_SPLIT_SIZE = 0.1$/;"	v
+TO_HUMANML_NAMES	data_loaders/gymnastics/skeleton.py	/^TO_HUMANML_NAMES = [$/;"	v
+TO_HUMANML_NAMES	data_loaders/nba/skeleton.py	/^TO_HUMANML_NAMES = [$/;"	v
+TensorboardPlatform	train/train_platforms.py	/^class TensorboardPlatform(TrainPlatform):$/;"	c
+TimestepEmbedder	model/mdm.py	/^class TimestepEmbedder(nn.Module):$/;"	c
+TrainPlatform	train/train_platforms.py	/^class TrainPlatform:$/;"	c
+Trainer	train/trainer.py	/^class Trainer:$/;"	c
+TransformerDecoder	eval/evaluator.py	/^class TransformerDecoder(nn.Module):$/;"	c
+TransformerEncoder	eval/evaluator.py	/^class TransformerEncoder(nn.Module):$/;"	c
+UniformSampler	diffusion/resample.py	/^class UniformSampler(ScheduleSampler):$/;"	c
+VAE	eval/evaluator.py	/^class VAE(nn.Module):$/;"	c
+_WrappedModel	diffusion/respace.py	/^class _WrappedModel:$/;"	c
+__call__	diffusion/respace.py	/^    def __call__(self, x, ts, **kwargs):$/;"	m	class:_WrappedModel	file:
+__call__	model/rotation2xyz.py	/^    def __call__(self, x, mask, pose_rep, translation, glob,$/;"	m	class:Rotation2xyz	file:
+__call__	sample/generate.py	/^    def __call__(self, save=True, visualize=True, model_kwargs=None, progress=True):$/;"	m	class:Generator	file:
+__call__	sample/mas.py	/^    def __call__(self, model_kwargs=None, save=True, visualize=True, progress=True):$/;"	m	class:MAS	file:
+__call__	visualize/joints2smpl/src/smplify.py	/^    def __call__(self, init_pose, init_betas, init_cam_t, j3d, conf_3d=1.0, seq_ind=0):$/;"	m	class:SMPLify3D	file:
+__getitem__	data_loaders/base_dataset.py	/^    def __getitem__(self, item):$/;"	m	class:BaseDataset	file:
+__getitem__	data_loaders/humanml/dataset.py	/^    def __getitem__(self, item):$/;"	m	class:HunammlDataset	file:
+__init__	data_loaders/base_dataset.py	/^    def __init__(self, *args, data_augmentations=[], **kwargs):$/;"	m	class:AugDataset
+__init__	data_loaders/base_dataset.py	/^    def __init__(self, datapath, mean_path, std_path, data_size=None, split="train", **kwargs):$/;"	m	class:BaseDataset
+__init__	data_loaders/gymnastics/dataset.py	/^    def __init__(self, datapath, confidence_threshold, distance_threshold, *args, **kwargs):$/;"	m	class:GymnasticsDataset
+__init__	data_loaders/humanml/dataset.py	/^    def __init__(self, datapath=DEFAULT_DATAPATH, *args, **kwargs):$/;"	m	class:HunammlDataset
+__init__	data_loaders/nba/dataset.py	/^    def __init__(self, *args, fps, confidence_threshold, **kwargs):$/;"	m	class:NBADataset
+__init__	diffusion/fp16_util.py	/^    def __init__($/;"	m	class:MixedPrecisionTrainer
+__init__	diffusion/gaussian_diffusion.py	/^    def __init__($/;"	m	class:GaussianDiffusion
+__init__	diffusion/resample.py	/^    def __init__(self, diffusion):$/;"	m	class:UniformSampler
+__init__	diffusion/resample.py	/^    def __init__(self, diffusion, history_per_term=10, uniform_prob=0.001):$/;"	m	class:LossSecondMomentResampler
+__init__	diffusion/respace.py	/^    def __init__(self, model, timestep_map, rescale_timesteps, original_num_steps):$/;"	m	class:_WrappedModel
+__init__	diffusion/respace.py	/^    def __init__(self, use_timesteps, **kwargs):$/;"	m	class:SpacedDiffusion
+__init__	eval/evaluate.py	/^    def __init__(self, args):$/;"	m	class:Evaluator
+__init__	eval/evaluator.py	/^    def __init__(self, args):$/;"	m	class:TransformerDecoder
+__init__	eval/evaluator.py	/^    def __init__(self, args):$/;"	m	class:TransformerEncoder
+__init__	eval/evaluator.py	/^    def __init__(self, args, encoder, decoder):$/;"	m	class:VAE
+__init__	model/cfg_sampler.py	/^    def __init__(self, model):$/;"	m	class:ClassifierFreeSampleModel
+__init__	model/mdm.py	/^    def __init__($/;"	m	class:MDM
+__init__	model/mdm.py	/^    def __init__(self, d_model, dropout=0.1, max_len=5000):$/;"	m	class:PositionalEncoding
+__init__	model/mdm.py	/^    def __init__(self, input_feats, latent_dim):$/;"	m	class:InputProcess
+__init__	model/mdm.py	/^    def __init__(self, input_feats, latent_dim, njoints, nfeats):$/;"	m	class:OutputProcess
+__init__	model/mdm.py	/^    def __init__(self, latent_dim, sequence_pos_encoder):$/;"	m	class:TimestepEmbedder
+__init__	model/mdm.py	/^    def __init__(self, num_actions, latent_dim):$/;"	m	class:EmbedAction
+__init__	model/rotation2xyz.py	/^    def __init__(self, device, dataset='amass'):$/;"	m	class:Rotation2xyz
+__init__	model/smpl.py	/^    def __init__(self, model_path=SMPL_MODEL_PATH, **kwargs):$/;"	m	class:SMPL
+__init__	sample/ablations.py	/^    def __init__(self, args):$/;"	m	class:MASRandomAngles
+__init__	sample/sampler.py	/^    def __init__(self, args):$/;"	m	class:Sampler
+__init__	train/train_mdm.py	/^    def __init__(self, *args, evaluator_args, **kwargs):$/;"	m	class:DiffusionTrainerEval
+__init__	train/train_mdm.py	/^    def __init__(self, diffusion: GaussianDiffusion, *args, **kwargs):$/;"	m	class:DiffusionTrainer
+__init__	train/train_platforms.py	/^    def __init__(self, save_dir):$/;"	m	class:ClearmlPlatform
+__init__	train/train_platforms.py	/^    def __init__(self, save_dir):$/;"	m	class:TensorboardPlatform
+__init__	train/train_platforms.py	/^    def __init__(self, save_dir):$/;"	m	class:TrainPlatform
+__init__	train/trainer.py	/^    def __init__(self, args, model: Module, data, train_platform: TrainPlatform = NoPlatform(None)):$/;"	m	class:Trainer
+__init__	visualize/joints2smpl/src/prior.py	/^    def __init__(self, dtype=DEFAULT_DTYPE, reduction='sum', **kwargs):$/;"	m	class:L2Prior
+__init__	visualize/joints2smpl/src/prior.py	/^    def __init__(self, dtype=torch.float32, **kwargs):$/;"	m	class:SMPLifyAnglePrior
+__init__	visualize/joints2smpl/src/prior.py	/^    def __init__(self, prior_folder='prior',$/;"	m	class:MaxMixturePrior
+__init__	visualize/joints2smpl/src/smplify.py	/^    def __init__(self,$/;"	m	class:SMPLify3D
+__init__	visualize/simplify_loc2rot.py	/^    def __init__(self, num_frames, device_id, cuda=True, num_smplify_iters=150):$/;"	m	class:joints2smpl
+__init__	visualize/vis_utils.py	/^    def __init__(self, npy_path, skeleton_type, sample_idx, device=0, cuda=True, num_smplify_iters=150):$/;"	m	class:npy2obj
+__len__	data_loaders/base_dataset.py	/^    def __len__(self):$/;"	m	class:BaseDataset	file:
+_angle_from_tan	utils/rotation_conversions.py	/^def _angle_from_tan($/;"	f
+_axis_angle_rotation	utils/rotation_conversions.py	/^def _axis_angle_rotation(axis: str, angle):$/;"	f
+_compute_norms	diffusion/fp16_util.py	/^    def _compute_norms(self, grad_scale=1.0):$/;"	m	class:MixedPrecisionTrainer
+_copysign	utils/rotation_conversions.py	/^def _copysign(a, b):$/;"	f
+_extract_into_tensor	diffusion/gaussian_diffusion.py	/^def _extract_into_tensor(arr, timesteps, broadcast_shape):$/;"	f
+_find_free_port	utils/dist_utils.py	/^def _find_free_port():$/;"	f
+_index_from_letter	utils/rotation_conversions.py	/^def _index_from_letter(letter: str):$/;"	f
+_optimize_fp16	diffusion/fp16_util.py	/^    def _optimize_fp16(self, opt: th.optim.Optimizer):$/;"	m	class:MixedPrecisionTrainer
+_optimize_normal	diffusion/fp16_util.py	/^    def _optimize_normal(self, opt: th.optim.Optimizer):$/;"	m	class:MixedPrecisionTrainer
+_predict_eps_from_xstart	diffusion/gaussian_diffusion.py	/^    def _predict_eps_from_xstart(self, x_t, t, pred_xstart):$/;"	m	class:GaussianDiffusion
+_predict_xstart_from_eps	diffusion/gaussian_diffusion.py	/^    def _predict_xstart_from_eps(self, x_t, t, eps):$/;"	m	class:GaussianDiffusion
+_predict_xstart_from_xprev	diffusion/gaussian_diffusion.py	/^    def _predict_xstart_from_xprev(self, x_t, t, xprev):$/;"	m	class:GaussianDiffusion
+_prior_bpd	diffusion/gaussian_diffusion.py	/^    def _prior_bpd(self, x_start):$/;"	m	class:GaussianDiffusion
+_rotation_6d_to_euler	visualize/motions2hik.py	/^def _rotation_6d_to_euler(d6):$/;"	f
+_scale_timesteps	diffusion/gaussian_diffusion.py	/^    def _scale_timesteps(self, t):$/;"	m	class:GaussianDiffusion
+_scale_timesteps	diffusion/respace.py	/^    def _scale_timesteps(self, t):$/;"	m	class:SpacedDiffusion
+_sqrt_positive_part	utils/rotation_conversions.py	/^def _sqrt_positive_part(x):$/;"	f
+_vb_terms_bpd	diffusion/gaussian_diffusion.py	/^    def _vb_terms_bpd(self, model, x_start, x_t, t, clip_denoised=True, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+_warmed_up	diffusion/resample.py	/^    def _warmed_up(self):$/;"	m	class:LossSecondMomentResampler
+_wrap_model	diffusion/respace.py	/^    def _wrap_model(self, model):$/;"	m	class:SpacedDiffusion
+ablation_args	utils/parser_utils.py	/^def ablation_args():$/;"	f
+action2motion_joints	model/smpl.py	/^action2motion_joints = [8, 1, 2, 3, 4, 5, 6, 7, 0, 9, 10, 11, 12, 13, 14, 21, 24, 38]$/;"	v
+add_ablation_options	utils/parser_utils.py	/^def add_ablation_options(parser: ArgumentParser):$/;"	f
+add_base_options	utils/parser_utils.py	/^def add_base_options(parser: ArgumentParser):$/;"	f
+add_data_options	utils/parser_utils.py	/^def add_data_options(parser: ArgumentParser):$/;"	f
+add_diffusion_options	utils/parser_utils.py	/^def add_diffusion_options(parser: ArgumentParser):$/;"	f
+add_evaluation_options	utils/parser_utils.py	/^def add_evaluation_options(parser: ArgumentParser):$/;"	f
+add_evaluator_options	utils/parser_utils.py	/^def add_evaluator_options(parser: ArgumentParser):$/;"	f
+add_evaluator_sampling_options	utils/parser_utils.py	/^def add_evaluator_sampling_options(parser: ArgumentParser):$/;"	f
+add_mas_options	utils/parser_utils.py	/^def add_mas_options(parser: ArgumentParser):$/;"	f
+add_model_diffusion_data_options	utils/parser_utils.py	/^def add_model_diffusion_data_options(parser):$/;"	f
+add_model_options	utils/parser_utils.py	/^def add_model_options(parser: ArgumentParser):$/;"	f
+add_motion	data_loaders/base_dataset.py	/^    def add_motion(self, motion, name):$/;"	m	class:BaseDataset
+add_motion	data_loaders/horse/dataset.py	/^    def add_motion(self, motion, name):$/;"	m	class:HorseDataset
+add_motion	data_loaders/humanml/dataset.py	/^    def add_motion(self, motion, name):$/;"	m	class:HunammlDataset
+add_sampling_options	utils/parser_utils.py	/^def add_sampling_options(parser: ArgumentParser):$/;"	f
+add_training_options	utils/parser_utils.py	/^def add_training_options(parser: ArgumentParser):$/;"	f
+amass_idx	visualize/joints2smpl/src/config.py	/^amass_idx =       range(22)$/;"	v
+amass_smpl_idx	visualize/joints2smpl/src/config.py	/^amass_smpl_idx =  range(22)$/;"	v
+angle_prior	visualize/joints2smpl/src/customloss.py	/^def angle_prior(pose):$/;"	f
+animate	utils/plot_script.py	/^    def animate(frame_i):$/;"	f	function:plot_motion
+apply_model	sample/mas.py	/^    def apply_model(self, x: torch.Tensor, t, **model_kwargs):$/;"	m	class:MAS
+apply_on_data	eval/evaluate.py	/^    def apply_on_data(self, func, split, **kwargs):$/;"	m	class:Evaluator
+approx_standard_normal_cdf	diffusion/losses.py	/^def approx_standard_normal_cdf(x):$/;"	f
+avg_pool_nd	diffusion/nn.py	/^def avg_pool_nd(dims, *args, **kwargs):$/;"	f
+axis_angle_to_matrix	utils/rotation_conversions.py	/^def axis_angle_to_matrix(axis_angle):$/;"	f
+axis_angle_to_quaternion	utils/rotation_conversions.py	/^def axis_angle_to_quaternion(axis_angle):$/;"	f
+axis_rotation_matrix	utils/math_utils.py	/^def axis_rotation_matrix(angle, axis):$/;"	f
+backward	diffusion/fp16_util.py	/^    def backward(self, loss: th.Tensor):$/;"	m	class:MixedPrecisionTrainer
+backward	diffusion/nn.py	/^    def backward(ctx, *output_grads):$/;"	m	class:CheckpointFunction
+batch_size	visualize/joints2smpl/fit_seq.py	/^                         batch_size=opt.batchSize).to(device)$/;"	v
+batch_size	visualize/joints2smpl/fit_seq.py	/^                    batch_size=opt.batchSize,$/;"	v
+betas_for_alpha_bar	diffusion/gaussian_diffusion.py	/^def betas_for_alpha_bar(num_diffusion_timesteps, alpha_bar, max_beta=0.999):$/;"	f
+body_fitting_loss	visualize/joints2smpl/src/customloss.py	/^def body_fitting_loss(body_pose, betas, model_joints, camera_t, camera_center,$/;"	f
+body_fitting_loss_3d	visualize/joints2smpl/src/customloss.py	/^def body_fitting_loss_3d(body_pose, preserve_pose,$/;"	f
+calc_bpd_loop	diffusion/gaussian_diffusion.py	/^    def calc_bpd_loop(self, model, x_start, clip_denoised=True, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+calculate_diversity	eval/metrics.py	/^def calculate_diversity(activation, diversity_times):$/;"	f
+calculate_frechet_distance	eval/metrics.py	/^def calculate_frechet_distance(batch1, batch2):$/;"	f
+calculate_gaussian_frechet_distance	eval/metrics.py	/^def calculate_gaussian_frechet_distance(mu1, sigma1, mu2, sigma2, eps=1e-6):$/;"	f
+calculate_loss	eval/train_evaluator.py	/^    def calculate_loss(self, motion, cond):$/;"	m	class:EvaluatorTrainer
+calculate_loss	train/train_mdm.py	/^    def calculate_loss(self, motion: torch.Tensor, cond):$/;"	m	class:DiffusionTrainer
+calculate_loss	train/trainer.py	/^    def calculate_loss(self, motion, cond) -> torch.Tensor:$/;"	m	class:Trainer
+calculate_precision	eval/metrics.py	/^def calculate_precision(generated_features, real_features, k=3):$/;"	f
+calculate_recall	eval/metrics.py	/^def calculate_recall(generated_features, real_features, k=3):$/;"	f
+cam_trans_zero	visualize/joints2smpl/fit_seq.py	/^cam_trans_zero = torch.Tensor([0.0, 0.0, 0.0]).to(device)$/;"	v
+camera_fitting_loss	visualize/joints2smpl/src/customloss.py	/^def camera_fitting_loss(model_joints, camera_t, camera_t_est, camera_center, $/;"	f
+camera_fitting_loss_3d	visualize/joints2smpl/src/customloss.py	/^def camera_fitting_loss_3d(model_joints, camera_t, camera_t_est,$/;"	f
+check_overflow	diffusion/fp16_util.py	/^def check_overflow(value):$/;"	f
+checkpoint	diffusion/nn.py	/^def checkpoint(func, inputs, params, flag):$/;"	f
+close	train/train_platforms.py	/^    def close(self):$/;"	m	class:ClearmlPlatform
+close	train/train_platforms.py	/^    def close(self):$/;"	m	class:TensorboardPlatform
+close	train/train_platforms.py	/^    def close(self):$/;"	m	class:TrainPlatform
+closure	visualize/joints2smpl/src/smplify.py	/^                def closure():$/;"	f	function:SMPLify3D.__call__
+collate	data_loaders/base_dataset.py	/^def collate(batch, uncond=True):$/;"	f
+collate_tensors	data_loaders/tensors.py	/^def collate_tensors(batch):$/;"	f
+collate_with_mask	data_loaders/base_dataset.py	/^def collate_with_mask(batch, uncond=True):$/;"	f
+collate_with_text	data_loaders/base_dataset.py	/^def collate_with_text(batch, uncond=True):$/;"	f
+condition_mean	diffusion/gaussian_diffusion.py	/^    def condition_mean(self, cond_fn, p_mean_var, x, t, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+condition_mean	diffusion/respace.py	/^    def condition_mean(self, cond_fn, *args, **kwargs):$/;"	m	class:SpacedDiffusion
+condition_mean_with_grad	diffusion/gaussian_diffusion.py	/^    def condition_mean_with_grad(self, cond_fn, p_mean_var, x, t, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+condition_score	diffusion/gaussian_diffusion.py	/^    def condition_score(self, cond_fn, p_mean_var, x, t, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+condition_score	diffusion/respace.py	/^    def condition_score(self, cond_fn, *args, **kwargs):$/;"	m	class:SpacedDiffusion
+condition_score_with_grad	diffusion/gaussian_diffusion.py	/^    def condition_score_with_grad(self, cond_fn, p_mean_var, x, t, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+conf_3d	visualize/joints2smpl/fit_seq.py	/^												conf_3d=confidence_input.to(device),$/;"	v
+confidence_input	visualize/joints2smpl/fit_seq.py	/^		confidence_input =  torch.ones(opt.num_joints)$/;"	v
+cont6d_to_matrix	utils/math_utils.py	/^def cont6d_to_matrix(cont6d):$/;"	f
+cont6d_to_matrix_np	utils/math_utils.py	/^def cont6d_to_matrix_np(cont6d):$/;"	f
+conv_nd	diffusion/nn.py	/^def conv_nd(dims, *args, **kwargs):$/;"	f
+convert	visualize/convert_skeleton.py	/^def convert(motions_path, skeleton_type):$/;"	f
+convert_module_to_f16	diffusion/fp16_util.py	/^def convert_module_to_f16(l):$/;"	f
+convert_module_to_f32	diffusion/fp16_util.py	/^def convert_module_to_f32(l):$/;"	f
+convert_motionBert_skeleton	eval/eval_motionBert.py	/^def convert_motionBert_skeleton(motion):$/;"	f
+convert_skeleton	visualize/convert_skeleton.py	/^def convert_skeleton(motions, landmarks, joint_to_humanml_names):$/;"	f
+convert_skeleton_by_skeleton_type	visualize/convert_skeleton.py	/^def convert_skeleton_by_skeleton_type(motions, skeleton_type):$/;"	f
+convert_to_numpy	eval/evaluate.py	/^def convert_to_numpy(list_of_torch_tensors):$/;"	f
+create_evaluator	eval/evaluator.py	/^def create_evaluator(args):$/;"	f
+create_gaussian_diffusion	utils/model_utils.py	/^def create_gaussian_diffusion(args):$/;"	f
+create_model_and_diffusion	utils/model_utils.py	/^def create_model_and_diffusion(args):$/;"	f
+create_named_schedule_sampler	diffusion/resample.py	/^def create_named_schedule_sampler(name, diffusion):$/;"	f
+create_prior	visualize/joints2smpl/src/prior.py	/^def create_prior(prior_type, **kwargs):$/;"	f
+data	visualize/joints2smpl/fit_seq.py	/^data = np.load(opt.data_folder + "\/" + purename + ".npy")  # [nframes, njoints, 3]$/;"	v
+data_param	visualize/joints2smpl/fit_seq.py	/^		data_param = joblib.load(dir_save + "\/" + "%04d"%(idx-1) + ".pkl")$/;"	v
+ddim_reverse_sample	diffusion/gaussian_diffusion.py	/^    def ddim_reverse_sample($/;"	m	class:GaussianDiffusion
+ddim_sample	diffusion/gaussian_diffusion.py	/^    def ddim_sample($/;"	m	class:GaussianDiffusion
+ddim_sample_loop	diffusion/gaussian_diffusion.py	/^    def ddim_sample_loop($/;"	m	class:GaussianDiffusion
+ddim_sample_loop_progressive	diffusion/gaussian_diffusion.py	/^    def ddim_sample_loop_progressive($/;"	m	class:GaussianDiffusion
+ddim_sample_with_grad	diffusion/gaussian_diffusion.py	/^    def ddim_sample_with_grad($/;"	m	class:GaussianDiffusion
+dev	utils/dist_utils.py	/^def dev():$/;"	f
+device	visualize/joints2smpl/fit_seq.py	/^                    device=device)$/;"	v
+device	visualize/joints2smpl/fit_seq.py	/^device = torch.device("cuda:" + str(opt.gpu_ids) if opt.cuda else "cpu")$/;"	v
+dir_save	visualize/joints2smpl/fit_seq.py	/^dir_save = os.path.join(opt.save_folder, purename)$/;"	v
+discretized_gaussian_log_likelihood	diffusion/losses.py	/^def discretized_gaussian_log_likelihood(x, *, means, log_scales):$/;"	f
+dist	utils/math_utils.py	/^def dist(x, y):$/;"	f
+encode	eval/evaluate.py	/^    def encode(self, motion, model_kwargs):$/;"	m	class:Evaluator
+encode	eval/test_evaluator.py	/^    def encode(self, input_motions, model_kwargs):$/;"	m	class:EvalSampler
+encode_samples	eval/evaluate.py	/^    def encode_samples(self, iter):$/;"	m	class:Evaluator
+encode_text	model/mdm.py	/^        def encode_text(self, raw_text):$/;"	f	function:MDM.load_and_freeze_clip
+euler2quat	utils/math_utils.py	/^def euler2quat(e, order, deg=True):$/;"	f
+euler_angles_to_matrix	utils/rotation_conversions.py	/^def euler_angles_to_matrix(euler_angles, convention: str):$/;"	f
+euler_to_quaternion	utils/math_utils.py	/^def euler_to_quaternion(e, order):$/;"	f
+evaluate	eval/evaluate.py	/^    def evaluate(self, model_args=None):$/;"	m	class:Evaluator
+evaluate	eval/evaluate.py	/^def evaluate(evaluator_args, model_args):$/;"	f
+evaluate	train/train_mdm.py	/^    def evaluate(self):$/;"	m	class:DiffusionTrainerEval
+evaluate	train/trainer.py	/^    def evaluate(self):$/;"	m	class:Trainer
+evaluate_args	utils/parser_utils.py	/^def evaluate_args():$/;"	f
+evaluate_multiple_times	eval/evaluate.py	/^    def evaluate_multiple_times(self, model_args=None, print=True, save=True):$/;"	m	class:Evaluator
+evaluate_samples	eval/evaluate.py	/^    def evaluate_samples(self, samples, test_samples):$/;"	m	class:Evaluator
+evaluation_parser	utils/parser_utils.py	/^def evaluation_parser():$/;"	f
+expmap_to_quaternion	utils/math_utils.py	/^def expmap_to_quaternion(e):$/;"	f
+file	visualize/joints2smpl/fit_seq.py	/^file = h5py.File(smpl_mean_file, 'r')$/;"	v
+fixseed	utils/fixseed.py	/^def fixseed(seed):$/;"	f
+format_float	eval/evaluate.py	/^def format_float(f):$/;"	f
+forward	diffusion/nn.py	/^    def forward(ctx, run_function, length, *args):$/;"	m	class:CheckpointFunction
+forward	diffusion/nn.py	/^    def forward(self, x):$/;"	m	class:GroupNorm32
+forward	diffusion/nn.py	/^    def forward(self, x):$/;"	m	class:SiLU
+forward	eval/evaluator.py	/^    def forward(self, latent, cond):$/;"	m	class:TransformerDecoder
+forward	eval/evaluator.py	/^    def forward(self, motion, cond=None):$/;"	m	class:VAE
+forward	eval/evaluator.py	/^    def forward(self, x, cond=None):$/;"	m	class:TransformerEncoder
+forward	model/cfg_sampler.py	/^    def forward(self, x, timesteps, y=None):$/;"	m	class:ClassifierFreeSampleModel
+forward	model/mdm.py	/^    def forward(self, input):$/;"	m	class:EmbedAction
+forward	model/mdm.py	/^    def forward(self, output):$/;"	m	class:OutputProcess
+forward	model/mdm.py	/^    def forward(self, timesteps):$/;"	m	class:TimestepEmbedder
+forward	model/mdm.py	/^    def forward(self, x):$/;"	m	class:InputProcess
+forward	model/mdm.py	/^    def forward(self, x):$/;"	m	class:PositionalEncoding
+forward	model/mdm.py	/^    def forward(self, x, timesteps, y=None):$/;"	m	class:MDM
+forward	model/smpl.py	/^    def forward(self, *args, **kwargs):$/;"	m	class:SMPL
+forward	visualize/joints2smpl/src/prior.py	/^    def forward(self, module_input, *args):$/;"	m	class:L2Prior
+forward	visualize/joints2smpl/src/prior.py	/^    def forward(self, pose, betas):$/;"	m	class:MaxMixturePrior
+forward	visualize/joints2smpl/src/prior.py	/^    def forward(self, pose, with_global_pose=False):$/;"	m	class:SMPLifyAnglePrior
+full_smpl_idx	visualize/joints2smpl/src/config.py	/^full_smpl_idx = range(24)$/;"	v
+generate	eval/test_evaluator.py	/^    def generate(self, visualize=True):$/;"	m	class:EvalSampler
+generate_args	utils/parser_utils.py	/^def generate_args():$/;"	f
+generate_motion	eval/evaluate.py	/^        def generate_motion(input_motion, model_kwargs):$/;"	f	function:Evaluator.get_mas_samples
+generate_motion	eval/evaluate.py	/^        def generate_motion(input_motion, model_kwargs):$/;"	f	function:Evaluator.get_model_samples
+get_3d_samples	eval/evaluate.py	/^    def get_3d_samples(self, samples_path, scale=1, flip=False, fps_ratio=1):$/;"	m	class:Evaluator
+get_args	sample/sampler.py	/^    def get_args(self):$/;"	m	class:Sampler
+get_collate_fn	data_loaders/dataset_utils.py	/^def get_collate_fn(dataset):$/;"	f
+get_cond_mode	data_loaders/dataset_utils.py	/^def get_cond_mode(dataset):$/;"	f
+get_data_augmentations	data_loaders/dataset_utils.py	/^def get_data_augmentations(dataset):$/;"	f
+get_data_samples	eval/evaluate.py	/^    def get_data_samples(self, split, **kwargs):$/;"	m	class:Evaluator
+get_datapath	data_loaders/dataset_utils.py	/^def get_datapath(dataset):$/;"	f
+get_dataset	data_loaders/dataset_utils.py	/^def get_dataset(dataset, **kwargs):$/;"	f
+get_dataset_config	data_loaders/dataset_utils.py	/^def get_dataset_config(dataset) -> DatasetConfig:$/;"	f
+get_dataset_from_args	data_loaders/dataset_utils.py	/^def get_dataset_from_args(args, **kwargs):$/;"	f
+get_dataset_loader	data_loaders/dataset_utils.py	/^def get_dataset_loader(dataset, batch_size, num_workers=0, **kwargs):$/;"	f
+get_dataset_loader_from_args	data_loaders/dataset_utils.py	/^def get_dataset_loader_from_args(args, **kwargs):$/;"	f
+get_dims	data_loaders/dataset_utils.py	/^def get_dims(dataset):$/;"	f
+get_eval_during_training	utils/parser_utils.py	/^def get_eval_during_training():$/;"	f
+get_fps	data_loaders/dataset_utils.py	/^def get_fps(dataset):$/;"	f
+get_landmarks	data_loaders/dataset_utils.py	/^def get_landmarks(dataset):$/;"	f
+get_mas_samples	eval/evaluate.py	/^    def get_mas_samples(self, mas_type_name, model_args, split="test"):$/;"	m	class:Evaluator
+get_mean	data_loaders/dataset_utils.py	/^def get_mean(dataset):$/;"	f
+get_mean	visualize/joints2smpl/src/prior.py	/^    def get_mean(self):$/;"	m	class:MaxMixturePrior
+get_model_args	utils/model_utils.py	/^def get_model_args(args):$/;"	f
+get_model_output	diffusion/gaussian_diffusion.py	/^        def get_model_output(x, t):$/;"	f	function:GaussianDiffusion.plms_sample
+get_model_samples	eval/evaluate.py	/^    def get_model_samples(self, model_args, split="test"):$/;"	m	class:Evaluator
+get_multiple_samples	eval/evaluate.py	/^    def get_multiple_samples(self, subjects, model_args=None):$/;"	m	class:Evaluator
+get_named_beta_schedule	diffusion/gaussian_diffusion.py	/^def get_named_beta_schedule(schedule_name, num_diffusion_timesteps, scale_betas=1.0):$/;"	f
+get_num_actions	data_loaders/dataset_utils.py	/^def get_num_actions(dataset):$/;"	f
+get_param_groups_and_shapes	diffusion/fp16_util.py	/^def get_param_groups_and_shapes(named_model_params):$/;"	f
+get_samples	eval/evaluate.py	/^    def get_samples(self, subject, model_args=None):$/;"	m	class:Evaluator
+get_seq_mask	eval/evaluator.py	/^def get_seq_mask(lengths):$/;"	f
+get_seq_mask	model/mdm.py	/^    def get_seq_mask(self, xseq, y):$/;"	m	class:MDM
+get_skeleton	data_loaders/dataset_utils.py	/^def get_skeleton(dataset):$/;"	f
+get_std	data_loaders/dataset_utils.py	/^def get_std(dataset):$/;"	f
+get_title	sample/sampler.py	/^def get_title(model_kwargs, sample_i):$/;"	f
+get_train_platform	train/train_platforms.py	/^def get_train_platform(args):$/;"	f
+get_trajectory	data_loaders/dataset_utils.py	/^def get_trajectory(dataset, motion):$/;"	f
+get_use_data	utils/parser_utils.py	/^def get_use_data():$/;"	f
+get_visualization_scale	data_loaders/dataset_utils.py	/^def get_visualization_scale(dataset):$/;"	f
+gmof	visualize/joints2smpl/src/customloss.py	/^def gmof(x, sigma):$/;"	f
+guess_init_3d	visualize/joints2smpl/src/smplify.py	/^def guess_init_3d(model_joints, $/;"	f
+handle_item	data_loaders/base_dataset.py	/^    def handle_item(self, motion, length, mask):$/;"	m	class:AugDataset
+handle_item	data_loaders/base_dataset.py	/^    def handle_item(self, motion, length, mask):$/;"	m	class:BaseDataset
+handle_mask	data_loaders/base_dataset.py	/^    def handle_mask(self, motion):$/;"	m	class:BaseDataset
+handle_mask	data_loaders/gymnastics/dataset.py	/^    def handle_mask(self, motion):$/;"	m	class:GymnasticsDataset
+handle_mask	data_loaders/horse/dataset.py	/^    def handle_mask(self, motion):$/;"	m	class:HorseDataset
+handle_mask	data_loaders/humanml/dataset.py	/^    def handle_mask(self, motion):$/;"	m	class:HunammlDataset
+handle_mask	data_loaders/nba/dataset.py	/^    def handle_mask(self, motion):$/;"	m	class:NBADataset
+handle_motion	data_loaders/base_dataset.py	/^    def handle_motion(self, motion):$/;"	m	class:BaseDataset
+handle_projected_motions	sample/mas.py	/^    def handle_projected_motions(self, projected_motions: torch.Tensor):$/;"	m	class:MAS
+help	visualize/joints2smpl/fit_seq.py	/^                    help='choose gpu ids')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='data in the folder')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='enables cuda')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='files use')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='fix foot or not')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='input batch size')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='joint number')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='num of smplify iters')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='results save folder')$/;"	v
+help	visualize/joints2smpl/fit_seq.py	/^                    help='use correspondence')$/;"	v
+init	utils/plot_script.py	/^    def init():$/;"	f	function:plot_3d_motion
+init	utils/plot_script.py	/^    def init():$/;"	f	function:plot_motion
+init_mean_pose	visualize/joints2smpl/fit_seq.py	/^init_mean_pose = torch.from_numpy(file['pose'][:]).unsqueeze(0).float()$/;"	v
+init_mean_shape	visualize/joints2smpl/fit_seq.py	/^init_mean_shape = torch.from_numpy(file['shape'][:]).unsqueeze(0).float()$/;"	v
+inv_transform	data_loaders/base_dataset.py	/^    def inv_transform(self, data):$/;"	m	class:BaseDataset
+inverse_transform	sample/sampler.py	/^    def inverse_transform(self, motion):$/;"	m	class:Sampler
+is_vb	diffusion/gaussian_diffusion.py	/^    def is_vb(self):$/;"	m	class:LossType
+joint2smpl	visualize/simplify_loc2rot.py	/^    def joint2smpl(self, input_joints, init_params=None):$/;"	m	class:joints2smpl
+joints2smpl	visualize/simplify_loc2rot.py	/^class joints2smpl:$/;"	c
+joints3d	visualize/joints2smpl/fit_seq.py	/^	joints3d = data[idx] #*1.2 #scale problem [check first]	$/;"	v
+joints_category	visualize/joints2smpl/fit_seq.py	/^                    joints_category=opt.joint_category,$/;"	v
+key_smpl_idx	visualize/joints2smpl/src/config.py	/^key_smpl_idx = [0, 1, 4, 7,  2, 5, 8,  17, 19, 21,  16, 18, 20]$/;"	v
+keypoints_3d	visualize/joints2smpl/fit_seq.py	/^keypoints_3d = torch.zeros(opt.batchSize, opt.num_joints, 3).to(device)$/;"	v
+kl_div_loss	eval/train_evaluator.py	/^def kl_div_loss(mu, logvar, **kwargs):$/;"	f
+length_aug	data_loaders/base_dataset.py	/^    def length_aug(self, motion, length, mask=None):$/;"	m	class:AugDataset
+length_aug	data_loaders/gymnastics/dataset.py	/^    def length_aug(self, motion, length, mask=None):$/;"	m	class:GymnasticsDataset
+length_aug	data_loaders/horse/dataset.py	/^    def length_aug(self, motion, length, mask=None):$/;"	m	class:HorseDataset
+lengths_to_mask	data_loaders/tensors.py	/^def lengths_to_mask(lengths, max_len):$/;"	f
+lerp	utils/math_utils.py	/^def lerp(p0, p1, t):$/;"	f
+linear	diffusion/nn.py	/^def linear(*args, **kwargs):$/;"	f
+load_and_freeze_clip	model/mdm.py	/^    def load_and_freeze_clip(self, clip_version):$/;"	m	class:MDM
+load_checkpoint	train/trainer.py	/^    def load_checkpoint(self):$/;"	m	class:Trainer
+load_dataset	sample/sampler.py	/^    def load_dataset(self):$/;"	m	class:Sampler
+load_dataset_properties	sample/sampler.py	/^    def load_dataset_properties(self):$/;"	m	class:Sampler
+load_diffusion_coeff	sample/sampler.py	/^    def load_diffusion_coeff(self):$/;"	m	class:DiffusionSampler
+load_from_model	utils/parser_utils.py	/^def load_from_model(model_path):$/;"	f
+load_model	eval/test_evaluator.py	/^    def load_model(self):$/;"	m	class:EvalSampler
+load_model	sample/sampler.py	/^    def load_model(self):$/;"	m	class:DiffusionSampler
+load_model	sample/sampler.py	/^    def load_model(self):$/;"	m	class:Sampler
+load_model_and_diffusion	sample/sampler.py	/^    def load_model_and_diffusion(self):$/;"	m	class:DiffusionSampler
+load_model_kwargs	sample/sampler.py	/^    def load_model_kwargs(self, model_kwargs=None):$/;"	m	class:Sampler
+load_model_kwargs_from_data	sample/sampler.py	/^    def load_model_kwargs_from_data(self):$/;"	m	class:Sampler
+load_model_wo_clip	utils/model_utils.py	/^def load_model_wo_clip(model, state_dict):$/;"	f
+load_motions	visualize/convert_skeleton.py	/^def load_motions(motions_path, skeleton_type):$/;"	f
+load_state_dict	utils/dist_utils.py	/^def load_state_dict(path, **kwargs):$/;"	f
+log_likelihood	visualize/joints2smpl/src/prior.py	/^    def log_likelihood(self, pose, betas, *args, **kwargs):$/;"	m	class:MaxMixturePrior
+loss_fn	sample/ablations.py	/^    def loss_fn(self, samples):$/;"	m	class:MASProminentAngle
+loss_fn	sample/mas.py	/^    def loss_fn(self, samples) -> torch.Tensor:$/;"	m	class:MAS
+main	eval/evaluate.py	/^def main():$/;"	f
+main	eval/test_evaluator.py	/^def main():$/;"	f
+main	eval/train_evaluator.py	/^def main():$/;"	f
+main	sample/ablations.py	/^def main():$/;"	f
+main	sample/dreamfusion.py	/^def main():$/;"	f
+main	sample/generate.py	/^def main():$/;"	f
+main	sample/mas.py	/^def main():$/;"	f
+main	train/train_mdm.py	/^def main():$/;"	f
+main	visualize/convert_skeleton.py	/^def main():$/;"	f
+main	visualize/render_mesh.py	/^def main():$/;"	f
+make_master_params	diffusion/fp16_util.py	/^def make_master_params(param_groups_and_shapes):$/;"	f
+manifold_estimate	eval/metrics.py	/^def manifold_estimate(A_features, B_features, k):$/;"	f
+mas_args	utils/parser_utils.py	/^def mas_args():$/;"	f
+mask_cond	model/mdm.py	/^    def mask_cond(self, cond, force_mask=False):$/;"	m	class:MDM
+masked_weighted_l2	train/train_mdm.py	/^def masked_weighted_l2(a: torch.Tensor, b: torch.Tensor, mask: torch.Tensor, weights: torch.Tensor):$/;"	f
+master_params_to_model_params	diffusion/fp16_util.py	/^def master_params_to_model_params(param_groups_and_shapes, master_params):$/;"	f
+master_params_to_state_dict	diffusion/fp16_util.py	/^    def master_params_to_state_dict(self, master_params):$/;"	m	class:MixedPrecisionTrainer
+master_params_to_state_dict	diffusion/fp16_util.py	/^def master_params_to_state_dict($/;"	f
+matrix_to_axis_angle	utils/rotation_conversions.py	/^def matrix_to_axis_angle(matrix):$/;"	f
+matrix_to_euler_angles	utils/rotation_conversions.py	/^def matrix_to_euler_angles(matrix, convention: str):$/;"	f
+matrix_to_quaternion	utils/rotation_conversions.py	/^def matrix_to_quaternion(matrix):$/;"	f
+matrix_to_rotation_6d	utils/rotation_conversions.py	/^def matrix_to_rotation_6d(matrix: torch.Tensor) -> torch.Tensor:$/;"	f
+mean_flat	diffusion/nn.py	/^def mean_flat(tensor):$/;"	f
+merged_log_likelihood	visualize/joints2smpl/src/prior.py	/^    def merged_log_likelihood(self, pose, betas):$/;"	m	class:MaxMixturePrior
+mesh_p	visualize/joints2smpl/fit_seq.py	/^	mesh_p = trimesh.Trimesh(vertices=outputp.vertices.detach().cpu().numpy().squeeze(), faces=smplmodel.faces, process=False)$/;"	v
+mirror_landmark	data_loaders/horse/skeleton.py	/^def mirror_landmark(landmark):$/;"	f
+model_grads_to_master_grads	diffusion/fp16_util.py	/^def model_grads_to_master_grads(param_groups_and_shapes, master_params):$/;"	f
+model_kwargs_to_device	sample/sampler.py	/^def model_kwargs_to_device(model_kwargs, device):$/;"	f
+model_kwargs_to_numpy	sample/sampler.py	/^def model_kwargs_to_numpy(model_kwargs):$/;"	f
+motions2hik	visualize/motions2hik.py	/^def motions2hik(motions,  device=0, cuda=True):$/;"	f
+mse	eval/train_evaluator.py	/^mse = torch.nn.MSELoss()$/;"	v
+mse	sample/mas.py	/^mse = torch.nn.MSELoss()$/;"	v
+no_prior	visualize/joints2smpl/src/prior.py	/^        def no_prior(*args, **kwargs):$/;"	f	function:create_prior
+normal_kl	diffusion/losses.py	/^def normal_kl(mean1, logvar1, mean2, logvar2):$/;"	f
+normalization	diffusion/nn.py	/^def normalization(channels):$/;"	f
+npy2obj	visualize/vis_utils.py	/^class npy2obj:$/;"	c
+num_iters	visualize/joints2smpl/fit_seq.py	/^					num_iters=opt.num_smplify_iters,$/;"	v
+num_seqs	visualize/joints2smpl/fit_seq.py	/^num_seqs = data.shape[0]$/;"	v
+opt	visualize/joints2smpl/fit_seq.py	/^opt = parser.parse_args()$/;"	v
+optimize	diffusion/fp16_util.py	/^    def optimize(self, opt: th.optim.Optimizer):$/;"	m	class:MixedPrecisionTrainer
+optimize	sample/ablations.py	/^    def optimize(self, samples):$/;"	m	class:MASRandomAngles
+optimize	sample/dreamfusion.py	/^    def optimize(self, samples):$/;"	m	class:Dreamfusion
+optimize	sample/mas.py	/^    def optimize(self, samples):$/;"	m	class:MAS
+orthographic_projection	utils/math_utils.py	/^def orthographic_projection(motion_3d, hor_angles, ver_angles):$/;"	f
+outputp	visualize/joints2smpl/fit_seq.py	/^	outputp = smplmodel(betas=new_opt_betas, global_orient=new_opt_pose[:, :3], body_pose=new_opt_pose[:, 3:],$/;"	v
+p_mean_variance	diffusion/gaussian_diffusion.py	/^    def p_mean_variance(self, model, x, t, clip_denoised=True, denoised_fn=None, model_kwargs=None):$/;"	m	class:GaussianDiffusion
+p_mean_variance	diffusion/respace.py	/^    def p_mean_variance(self, model, *args, **kwargs):  # pylint: disable=signature-differs$/;"	m	class:SpacedDiffusion
+p_sample	diffusion/gaussian_diffusion.py	/^    def p_sample($/;"	m	class:GaussianDiffusion
+p_sample_loop	diffusion/gaussian_diffusion.py	/^    def p_sample_loop($/;"	m	class:GaussianDiffusion
+p_sample_loop_progressive	diffusion/gaussian_diffusion.py	/^    def p_sample_loop_progressive($/;"	m	class:GaussianDiffusion
+p_sample_with_grad	diffusion/gaussian_diffusion.py	/^    def p_sample_with_grad($/;"	m	class:GaussianDiffusion
+param	visualize/joints2smpl/fit_seq.py	/^	param = {}$/;"	v
+param_grad_or_zeros	diffusion/fp16_util.py	/^def param_grad_or_zeros(param):$/;"	f
+parameters_wo_clip	model/mdm.py	/^    def parameters_wo_clip(self):$/;"	m	class:MDM
+params	visualize/simplify_loc2rot.py	/^    params = parser.parse_args()$/;"	v	class:joints2smpl
+parse_and_load_from_dataset	utils/parser_utils.py	/^def parse_and_load_from_dataset():$/;"	f
+parse_and_load_from_path	utils/parser_utils.py	/^def parse_and_load_from_path(*path_names):$/;"	f
+parser	visualize/joints2smpl/fit_seq.py	/^parser = argparse.ArgumentParser()$/;"	v
+parser	visualize/simplify_loc2rot.py	/^    parser = argparse.ArgumentParser()$/;"	v	class:joints2smpl
+perspective_projection	utils/math_utils.py	/^def perspective_projection(motion_3d, hor_angles, ver_angles, distance):$/;"	f
+perspective_projection	visualize/joints2smpl/src/customloss.py	/^def perspective_projection(points, rotation, translation,$/;"	f
+perspective_projection_z_detatched	utils/math_utils.py	/^def perspective_projection_z_detatched(motion_3d, hor_angles, ver_angles, distance):$/;"	f
+plms_sample	diffusion/gaussian_diffusion.py	/^    def plms_sample($/;"	m	class:GaussianDiffusion
+plms_sample_loop	diffusion/gaussian_diffusion.py	/^    def plms_sample_loop($/;"	m	class:GaussianDiffusion
+plms_sample_loop_progressive	diffusion/gaussian_diffusion.py	/^    def plms_sample_loop_progressive($/;"	m	class:GaussianDiffusion
+plot_3d_motion	utils/plot_script.py	/^def plot_3d_motion(save_path, joints, dataset, title="", figsize=(5, 5), fps=20, radius=3, elev=30, azim=None, rotate=False, repeats=1, linewidth=1.0):$/;"	f
+plot_motion	utils/plot_script.py	/^def plot_motion(save_path, joints, dataset, title="", mask=None, figsize=(5, 5), fps=20, **kwargs):$/;"	f
+plot_xzPlane	utils/plot_script.py	/^    def plot_xzPlane(minx, maxx, miny, minz, maxz):$/;"	f	function:plot_3d_motion
+pred_betas	visualize/joints2smpl/fit_seq.py	/^pred_betas = torch.zeros(opt.batchSize, 10).to(device)$/;"	v
+pred_cam_t	visualize/joints2smpl/fit_seq.py	/^pred_cam_t = torch.zeros(opt.batchSize, 3).to(device)$/;"	v
+pred_pose	visualize/joints2smpl/fit_seq.py	/^pred_pose = torch.zeros(opt.batchSize, 72).to(device)$/;"	v
+preprocess_motion	data_loaders/base_dataset.py	/^    def preprocess_motion(self, motion):$/;"	m	class:BaseDataset
+preprocess_motion	data_loaders/nba/dataset.py	/^    def preprocess_motion(self, motion):$/;"	m	class:NBADataset
+print_table	eval/evaluate.py	/^def print_table(total_means, conf_intervals, subjects, metrics_names):$/;"	f
+process_xstart	diffusion/gaussian_diffusion.py	/^        def process_xstart(x):$/;"	f	function:GaussianDiffusion.p_mean_variance
+project_motions_3d	sample/mas.py	/^    def project_motions_3d(self, motions_3d=None):$/;"	m	class:MAS
+project_to_random_angle	eval/evaluate.py	/^def project_to_random_angle(motion, dataset, mode):$/;"	f
+purename	visualize/joints2smpl/fit_seq.py	/^purename = os.path.splitext(opt.files)[0]$/;"	v
+q_mean_variance	diffusion/gaussian_diffusion.py	/^    def q_mean_variance(self, x_start, t):$/;"	m	class:GaussianDiffusion
+q_posterior_mean_variance	diffusion/gaussian_diffusion.py	/^    def q_posterior_mean_variance(self, x_start, x_t, t):$/;"	m	class:GaussianDiffusion
+q_sample	diffusion/gaussian_diffusion.py	/^    def q_sample(self, x_start, t, noise=None):$/;"	m	class:GaussianDiffusion
+qbetween	utils/math_utils.py	/^def qbetween(v0, v1):$/;"	f
+qbetween_np	utils/math_utils.py	/^def qbetween_np(v0, v1):$/;"	f
+qeuler	utils/math_utils.py	/^def qeuler(q, order, epsilon=0, deg=True):$/;"	f
+qeuler_np	utils/math_utils.py	/^def qeuler_np(q, order, epsilon=0, use_gpu=False):$/;"	f
+qfix	utils/math_utils.py	/^def qfix(q):$/;"	f
+qinv	utils/math_utils.py	/^def qinv(q):$/;"	f
+qinv_np	utils/math_utils.py	/^def qinv_np(q):$/;"	f
+qmul	utils/math_utils.py	/^def qmul(q, r):$/;"	f
+qmul_np	utils/math_utils.py	/^def qmul_np(q, r):$/;"	f
+qnormalize	utils/math_utils.py	/^def qnormalize(q):$/;"	f
+qpow	utils/math_utils.py	/^def qpow(q0, t, dtype=torch.float):$/;"	f
+qrot	utils/math_utils.py	/^def qrot(q, v):$/;"	f
+qrot_np	utils/math_utils.py	/^def qrot_np(q, v):$/;"	f
+qslerp	utils/math_utils.py	/^def qslerp(q0, q1, t):$/;"	f
+quaternion_apply	utils/rotation_conversions.py	/^def quaternion_apply(quaternion, point):$/;"	f
+quaternion_invert	utils/rotation_conversions.py	/^def quaternion_invert(quaternion):$/;"	f
+quaternion_multiply	utils/rotation_conversions.py	/^def quaternion_multiply(a, b):$/;"	f
+quaternion_raw_multiply	utils/rotation_conversions.py	/^def quaternion_raw_multiply(a, b):$/;"	f
+quaternion_to_axis_angle	utils/rotation_conversions.py	/^def quaternion_to_axis_angle(quaternions):$/;"	f
+quaternion_to_cont6d	utils/math_utils.py	/^def quaternion_to_cont6d(quaternions):$/;"	f
+quaternion_to_cont6d_np	utils/math_utils.py	/^def quaternion_to_cont6d_np(quaternions):$/;"	f
+quaternion_to_matrix	utils/math_utils.py	/^def quaternion_to_matrix(quaternions):$/;"	f
+quaternion_to_matrix	utils/rotation_conversions.py	/^def quaternion_to_matrix(quaternions):$/;"	f
+quaternion_to_matrix_np	utils/math_utils.py	/^def quaternion_to_matrix_np(quaternions):$/;"	f
+random_quaternions	utils/rotation_conversions.py	/^def random_quaternions($/;"	f
+random_rotation	utils/rotation_conversions.py	/^def random_rotation($/;"	f
+random_rotations	utils/rotation_conversions.py	/^def random_rotations($/;"	f
+reconstruct	eval/test_evaluator.py	/^    def reconstruct(self, visualize=True):$/;"	m	class:EvalSampler
+repeat_model_kwargs	sample/mas.py	/^def repeat_model_kwargs(model_kwargs, num_repeatitions):$/;"	f
+report_args	train/train_platforms.py	/^    def report_args(self, args, name):$/;"	m	class:ClearmlPlatform
+report_args	train/train_platforms.py	/^    def report_args(self, args, name):$/;"	m	class:TrainPlatform
+report_scalar	train/train_platforms.py	/^    def report_scalar(self, name, value, iteration, group_name):$/;"	m	class:ClearmlPlatform
+report_scalar	train/train_platforms.py	/^    def report_scalar(self, name, value, iteration, group_name=None):$/;"	m	class:TensorboardPlatform
+report_scalar	train/train_platforms.py	/^    def report_scalar(self, name, value, iteration, group_name=None):$/;"	m	class:TrainPlatform
+rotate	utils/math_utils.py	/^def rotate(motion, angles):$/;"	f
+rotate	visualize/convert_skeleton.py	/^def rotate(motion):$/;"	f
+rotate_multiple_angles	utils/math_utils.py	/^def rotate_multiple_angles(motion, hor_angles, ver_angles):$/;"	f
+rotation_6d_to_matrix	utils/rotation_conversions.py	/^def rotation_6d_to_matrix(d6: torch.Tensor) -> torch.Tensor:$/;"	f
+rotation_matrix	utils/math_utils.py	/^def rotation_matrix(angles):$/;"	f
+sample	diffusion/resample.py	/^    def sample(self, batch_size, device):$/;"	m	class:ScheduleSampler
+sample_3d_noise	sample/ablations.py	/^    def sample_3d_noise(self):$/;"	m	class:MASNo3DNoise
+sample_3d_noise	sample/ablations.py	/^    def sample_3d_noise(self, noise_3d=None):$/;"	m	class:MASRandomAngles
+sample_3d_noise	sample/mas.py	/^    def sample_3d_noise(self, noise_3d=None):$/;"	m	class:MAS
+sample_angles	sample/ablations.py	/^    def sample_angles(self):$/;"	m	class:MASRandomAngles
+sample_angles	sample/mas.py	/^    def sample_angles(self):$/;"	m	class:MAS
+sample_distance	data_loaders/dataset_utils.py	/^def sample_distance(dataset):$/;"	f
+sample_evaluator_args	utils/parser_utils.py	/^def sample_evaluator_args():$/;"	f
+sample_initial_xt	sample/ablations.py	/^    def sample_initial_xt(self):$/;"	m	class:MASRandomAngles
+sample_initial_xt	sample/dreamfusion.py	/^    def sample_initial_xt(self):$/;"	m	class:Dreamfusion
+sample_initial_xt	sample/mas.py	/^    def sample_initial_xt(self):$/;"	m	class:MAS
+sample_initial_xt	sample/sampler.py	/^    def sample_initial_xt(self):$/;"	m	class:DiffusionSampler
+sample_scale	data_loaders/base_dataset.py	/^    def sample_scale(self):$/;"	m	class:AugDataset
+sample_vertical_angle	data_loaders/dataset_utils.py	/^def sample_vertical_angle(dataset):$/;"	f
+sample_weights	sample/ablations.py	/^    def sample_weights(self):$/;"	m	class:MASProminentAngle
+sample_xt	sample/ablations.py	/^    def sample_xt(self, samples, og_x_t, t):$/;"	m	class:MASRandomAngles
+sample_xt	sample/dreamfusion.py	/^    def sample_xt(self, samples, x_t, t):$/;"	m	class:Dreamfusion
+sample_xt	sample/mas.py	/^    def sample_xt(self, samples, x_t, t, eps=None):$/;"	m	class:MAS
+sample_xt	sample/sampler.py	/^    def sample_xt(self, samples, x_t, t):$/;"	m	class:DiffusionSampler
+save_animation	utils/plot_script.py	/^def save_animation(anim: FuncAnimation, save_path, fps):$/;"	f
+save_checkpoint	train/trainer.py	/^    def save_checkpoint(self):$/;"	m	class:Trainer
+save_metrics	eval/evaluate.py	/^def save_metrics(metrics_means, metrics_intervals, log_file_path, subjects, metrics_names):$/;"	f
+save_motions	sample/sampler.py	/^    def save_motions(self, motions: torch.Tensor, model_kwargs=None, title="results"):$/;"	m	class:Sampler
+save_npy	visualize/vis_utils.py	/^    def save_npy(self, save_path):$/;"	m	class:npy2obj
+save_obj	visualize/vis_utils.py	/^    def save_obj(self, save_path, frame_i):$/;"	m	class:npy2obj
+scale_aug	data_loaders/base_dataset.py	/^    def scale_aug(self, motion, length, mask=None):$/;"	m	class:AugDataset
+scale_module	diffusion/nn.py	/^def scale_module(module, scale):$/;"	f
+seq_ind	visualize/joints2smpl/fit_seq.py	/^												seq_ind=idx$/;"	v
+set_arch	eval/evaluator.py	/^    def set_arch(self):$/;"	m	class:TransformerDecoder
+set_arch	eval/evaluator.py	/^    def set_arch(self):$/;"	m	class:TransformerEncoder
+setup_device	eval/evaluator.py	/^    def setup_device(self):$/;"	m	class:TransformerDecoder
+setup_device	eval/evaluator.py	/^    def setup_device(self):$/;"	m	class:TransformerEncoder
+setup_device	sample/sampler.py	/^    def setup_device(self):$/;"	m	class:Sampler
+setup_device	train/trainer.py	/^    def setup_device(self):$/;"	m	class:Trainer
+setup_dir	sample/sampler.py	/^    def setup_dir(self):$/;"	m	class:Sampler
+setup_dir	train/trainer.py	/^    def setup_dir(self):$/;"	m	class:Trainer
+setup_dist	utils/dist_utils.py	/^def setup_dist(device=0):$/;"	f
+setup_length_aug	data_loaders/base_dataset.py	/^    def setup_length_aug(self, **kwargs):$/;"	m	class:AugDataset
+setup_motions_3d	sample/mas.py	/^    def setup_motions_3d(self):$/;"	m	class:MAS
+setup_optimizer	sample/ablations.py	/^    def setup_optimizer(self):$/;"	m	class:MASProminentAngle
+setup_optimizer	sample/dreamfusion.py	/^    def setup_optimizer(self):$/;"	m	class:Dreamfusion
+setup_optimizer	sample/dreamfusion.py	/^    def setup_optimizer(self):$/;"	m	class:DreamfusionAnnealed
+setup_optimizer	sample/mas.py	/^    def setup_optimizer(self):$/;"	m	class:MAS
+setup_scale_aug	data_loaders/base_dataset.py	/^    def setup_scale_aug(self, scale_aug_variance, **kwargs):$/;"	m	class:AugDataset
+setup_shift_aug	data_loaders/base_dataset.py	/^    def setup_shift_aug(self, shift_aug_variance, **kwargs):$/;"	m	class:AugDataset
+setup_step	sample/dreamfusion.py	/^    def setup_step(self):$/;"	m	class:Dreamfusion
+setup_step	sample/mas.py	/^    def setup_step(self):$/;"	m	class:MAS
+shift_aug	data_loaders/base_dataset.py	/^    def shift_aug(self, motion, length, mask=None):$/;"	m	class:AugDataset
+simplify	visualize/simplify_loc2rot.py	/^    simplify = joints2smpl(device_id=params.device, cuda=params.cuda)$/;"	v	class:joints2smpl
+smpl_mean_file	visualize/joints2smpl/fit_seq.py	/^smpl_mean_file = config.SMPL_MEAN_FILE$/;"	v
+smplify	visualize/joints2smpl/fit_seq.py	/^smplify = SMPLify3D(smplxmodel=smplmodel,$/;"	v
+smplmodel	visualize/joints2smpl/fit_seq.py	/^smplmodel = smplx.create(config.SMPL_MODEL_DIR, $/;"	v
+space_timesteps	diffusion/respace.py	/^def space_timesteps(num_timesteps, section_counts):$/;"	f
+standardize_quaternion	utils/rotation_conversions.py	/^def standardize_quaternion(quaternions):$/;"	f
+state_dict_to_master_params	diffusion/fp16_util.py	/^    def state_dict_to_master_params(self, state_dict):$/;"	m	class:MixedPrecisionTrainer
+state_dict_to_master_params	diffusion/fp16_util.py	/^def state_dict_to_master_params(model, state_dict, use_fp16):$/;"	f
+sum_batched	train/train_mdm.py	/^def sum_batched(tensor: torch.Tensor, keepdim=False):$/;"	f
+sum_flat	diffusion/nn.py	/^def sum_flat(tensor):$/;"	f
+summarize_metrics	eval/evaluate.py	/^def summarize_metrics(all_metrics, evaluator_args):$/;"	f
+sync_params	utils/dist_utils.py	/^def sync_params(params):$/;"	f
+task_name	eval/test_evaluator.py	/^    def task_name(self):$/;"	m	class:EvalSampler
+task_name	sample/ablations.py	/^    def task_name(self):$/;"	m	class:MASNo3DNoise
+task_name	sample/ablations.py	/^    def task_name(self):$/;"	m	class:MASProminentAngle
+task_name	sample/ablations.py	/^    def task_name(self):$/;"	m	class:MASProminentAngleNo3DNoise
+task_name	sample/ablations.py	/^    def task_name(self):$/;"	m	class:MASRandomAngles
+task_name	sample/dreamfusion.py	/^    def task_name(self):$/;"	m	class:Dreamfusion
+task_name	sample/dreamfusion.py	/^    def task_name(self):$/;"	m	class:DreamfusionAnnealed
+task_name	sample/generate.py	/^    def task_name(self):$/;"	m	class:Generator
+task_name	sample/mas.py	/^    def task_name(self):$/;"	m	class:MAS
+task_name	sample/sampler.py	/^    def task_name(self):$/;"	m	class:Sampler
+timestep_embedding	diffusion/nn.py	/^def timestep_embedding(timesteps, dim, max_period=10000):$/;"	f
+train	train/trainer.py	/^    def train(self):$/;"	m	class:Trainer
+train_args	utils/parser_utils.py	/^def train_args():$/;"	f
+train_evaluator_args	utils/parser_utils.py	/^def train_evaluator_args():$/;"	f
+training_losses	diffusion/respace.py	/^    def training_losses(self, model, *args, **kwargs):  # pylint: disable=signature-differs$/;"	m	class:SpacedDiffusion
+transform	data_loaders/base_dataset.py	/^    def transform(self, data):$/;"	m	class:BaseDataset
+transform	sample/sampler.py	/^    def transform(self, motion):$/;"	m	class:Sampler
+unbatch	eval/evaluate.py	/^def unbatch(batched_list):$/;"	f
+unflatten_master_params	diffusion/fp16_util.py	/^def unflatten_master_params(param_group, master_param):$/;"	f
+update	utils/plot_script.py	/^    def update(index):$/;"	f	function:plot_3d_motion
+update_defaults	utils/parser_utils.py	/^def update_defaults(group, args):$/;"	f
+update_ema	diffusion/nn.py	/^def update_ema(target_params, source_params, rate=0.99):$/;"	f
+update_with_all_losses	diffusion/resample.py	/^    def update_with_all_losses(self, ts, losses):$/;"	m	class:LossAwareSampler
+update_with_all_losses	diffusion/resample.py	/^    def update_with_all_losses(self, ts, losses):$/;"	m	class:LossSecondMomentResampler
+update_with_local_losses	diffusion/resample.py	/^    def update_with_local_losses(self, local_ts, local_losses):$/;"	m	class:LossAwareSampler
+used_device	utils/dist_utils.py	/^used_device = 0$/;"	v
+visualize	sample/sampler.py	/^    def visualize(self, sample, title="", normalized=False, model_kwargs=None, use_mask=False):$/;"	m	class:Sampler
+visualize_3d	sample/mas.py	/^    def visualize_3d(self, motions_3d: torch.Tensor, title=""):$/;"	m	class:MAS
+visualize_samples	eval/evaluate.py	/^    def visualize_samples(self, motions):$/;"	m	class:Evaluator
+weighted_loss	sample/ablations.py	/^def weighted_loss(x, y, weight):$/;"	f
+weights	diffusion/resample.py	/^    def weights(self):$/;"	m	class:LossSecondMomentResampler
+weights	diffusion/resample.py	/^    def weights(self):$/;"	m	class:ScheduleSampler
+weights	diffusion/resample.py	/^    def weights(self):$/;"	m	class:UniformSampler
+zero_grad	diffusion/fp16_util.py	/^    def zero_grad(self):$/;"	m	class:MixedPrecisionTrainer
+zero_grad	diffusion/fp16_util.py	/^def zero_grad(model_params):$/;"	f
+zero_master_grads	diffusion/fp16_util.py	/^def zero_master_grads(master_params):$/;"	f
+zero_module	diffusion/nn.py	/^def zero_module(module):$/;"	f
